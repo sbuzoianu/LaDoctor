@@ -13,6 +13,8 @@
 		0C57DF681BF47A6800B0D069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C57DF661BF47A6800B0D069 /* Main.storyboard */; };
 		0C57DF6A1BF47A6800B0D069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C57DF691BF47A6800B0D069 /* Assets.xcassets */; };
 		0C57DF6D1BF47A6800B0D069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C57DF6B1BF47A6800B0D069 /* LaunchScreen.storyboard */; };
+		0C57DFA31BF4917F00B0D069 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C57DF9A1BF4917F00B0D069 /* FaceView.m */; settings = {ASSET_TAGS = (); }; };
+		0C57DFA61BF4917F00B0D069 /* ViewControllerHappiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C57DF9E1BF4917F00B0D069 /* ViewControllerHappiness.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0C57DF691BF47A6800B0D069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C57DF6C1BF47A6800B0D069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C57DF6E1BF47A6800B0D069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C57DF991BF4917F00B0D069 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		0C57DF9A1BF4917F00B0D069 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		0C57DF9D1BF4917F00B0D069 /* ViewControllerHappiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHappiness.h; sourceTree = "<group>"; };
+		0C57DF9E1BF4917F00B0D069 /* ViewControllerHappiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHappiness.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		0C57DF511BF47A6800B0D069 = {
 			isa = PBXGroup;
 			children = (
+				0C57DF911BF4917F00B0D069 /* Happiness */,
 				0C57DF5C1BF47A6800B0D069 /* Psychologist */,
 				0C57DF5B1BF47A6800B0D069 /* Products */,
 			);
@@ -77,6 +84,17 @@
 				0C57DF5E1BF47A6800B0D069 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C57DF911BF4917F00B0D069 /* Happiness */ = {
+			isa = PBXGroup;
+			children = (
+				0C57DF991BF4917F00B0D069 /* FaceView.h */,
+				0C57DF9A1BF4917F00B0D069 /* FaceView.m */,
+				0C57DF9D1BF4917F00B0D069 /* ViewControllerHappiness.h */,
+				0C57DF9E1BF4917F00B0D069 /* ViewControllerHappiness.m */,
+			);
+			path = Happiness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C57DFA61BF4917F00B0D069 /* ViewControllerHappiness.m in Sources */,
 				0C57DF651BF47A6800B0D069 /* ViewController.m in Sources */,
+				0C57DFA31BF4917F00B0D069 /* FaceView.m in Sources */,
 				0C57DF621BF47A6800B0D069 /* AppDelegate.m in Sources */,
 				0C57DF5F1BF47A6800B0D069 /* main.m in Sources */,
 			);
